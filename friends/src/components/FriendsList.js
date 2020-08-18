@@ -65,6 +65,7 @@ export default function FriendsList() {
             name="name"
             value={inputText.name}
             onChange={handleChange}
+            placeholder="Name"
           />
         </label>
         <br />
@@ -75,6 +76,7 @@ export default function FriendsList() {
             name="email"
             value={inputText.email}
             onChange={handleChange}
+            placeholder="Email"
           />
         </label>
         <br />
@@ -85,6 +87,7 @@ export default function FriendsList() {
             name="age"
             value={inputText.age}
             onChange={handleChange}
+            placeholder="Age"
           />
         </label>
         <br />
